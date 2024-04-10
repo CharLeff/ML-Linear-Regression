@@ -1,15 +1,12 @@
 # ML-Linear-Regression
 
-In this project, I take a look at a dataset of wine features and their respective quality.
+The project focuses on analyzing a dataset containing wine features and their corresponding quality ratings.
 
-###### Data Visualization and Analysis
+###### Data Exploration and Visualization:
+Initially, the dataset is explored through visualization and analysis. This involves examining the distribution of quality ratings using a histogram, exploring wine density and alcohol content distributions, creating a joint plot to understand their relationship, and generating a pairwise correlation heatmap to identify highly correlated features.
 
-I first perform data visualization and analysis to get a better understanding of the data. I look at a histogram of quality ratings, display distributions for wine density and alcohol content, create a jointplot of these two features, and display a pairwise correlation heatmap to see which features are highly correlated. 
+###### Model Development:
+Three models are developed to predict wine quality based on its features: a linear regression model, a multilinear regression model, and a multilinear regression model with interaction terms.
 
-###### Parametric Modeling
-
-Three models were developed to predict wine quality based on features. One for linear regression, one for multilinear regression, and one for multilinear regression with interaction. 
-
-###### Cross Validation 
-
-Finally, the models were ran with cross validation to better understand what model performs best at each threshold. 
+###### Cross Validation:
+Cross-validation is performed to assess the models' performance accurately across different evaluation thresholds.
